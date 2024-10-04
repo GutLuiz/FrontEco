@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  text-shadow: #000 1px 1px;
+  color: #06fd6d;
+}
+
+html, body {
+  height: 100%; /* Garante que html e body ocupem toda a altura */
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Altura total da viewport */
+  width: 100vw; /* Largura total da viewport */
+  background-image: url("./assets/fotoverde.jpg");
+  background-size: cover; /* Cobrir todo o espaço disponível */
+  background-position: center; /* Centralizar a imagem */
+}
