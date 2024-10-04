@@ -4,6 +4,8 @@ import Login from "./Components/Login/Login";
 import Registro from "./Components/Registro/Registro";
 import "./App.css";
 import Agendamento from './Components/Agendamento/Agendamento';
+import Homepage from "./Components/Homepage/Homepage";
+
 
 
 
@@ -15,6 +17,7 @@ function App() {
       <div className="App">
         <Routes>
           {/* Define as rotas para Login e Registro */}
+          { <Route path="/homepage" element={<Homepage/>} /> }
           <Route path="/login" element={<Login />} />
           <Route path="/registro" element={<Registro />} />
          {/* Rota para visualização do Agendamento */}

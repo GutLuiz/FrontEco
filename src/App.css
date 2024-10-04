@@ -17,7 +17,7 @@ html, body {
   align-items: center;
   height: 100vh; /* Altura total da viewport */
   width: 100vw; /* Largura total da viewport */
-  background-image: url("./assets/fotoverde.jpg");
+  /* background-image: url("./assets/fotoverde.jpg"); */
   background-size: cover; /* Cobrir todo o espaço disponível */
   background-position: center; /* Centralizar a imagem */
 }

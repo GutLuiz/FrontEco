@@ -1,3 +1,6 @@
+*{
+  background-image: url("../../assets/fotoverde.jpg"); 
+}
 .container {
     width: 450px;
     background: rgba(255, 255, 255, 0.15);
@@ -10,7 +13,7 @@
   .container h1 {
     text-align: center;
     font-size: 30px;
-    color: #fcfcfc;
+    color: #edf1ec;
   }
   
   .container .input-field {
